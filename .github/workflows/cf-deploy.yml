@@ -1,0 +1,11 @@
+name: Release to CloudFormation
+
+on:
+  workflow_dispatch:   
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for 30 seconds
+        run: sleep 30
